@@ -1,4 +1,4 @@
-package com.revision.exercice7a;
+package fr.ilyas.rev.exercice7a;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

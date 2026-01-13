@@ -1,4 +1,4 @@
-package com.revision.exercice7b;
+package fr.ilyas.rev.exercice7b;
 
 import jakarta.persistence.*;
 import java.util.List;

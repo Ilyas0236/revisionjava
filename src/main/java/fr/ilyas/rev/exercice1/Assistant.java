@@ -1,4 +1,4 @@
-package com.revision.exercice1;
+package fr.ilyas.rev.exercice1;
 
 public class Assistant extends Personnel {
     private int anneeDebu;

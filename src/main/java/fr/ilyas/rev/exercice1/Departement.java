@@ -1,4 +1,4 @@
-package com.revision.exercice1;
+package fr.ilyas.rev.exercice1;
 
 import java.util.Objects;
 
@@ -28,8 +28,10 @@ public class Departement {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Departement that = (Departement) o;
         return Objects.equals(nomD, that.nomD);
     }

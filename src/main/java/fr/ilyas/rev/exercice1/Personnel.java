@@ -1,4 +1,4 @@
-package com.revision.exercice1;
+package fr.ilyas.rev.exercice1;
 
 import java.util.Objects;
 
@@ -29,8 +29,10 @@ public abstract class Personnel {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Personnel personnel = (Personnel) o;
         return Objects.equals(idE, personnel.idE);
     }

@@ -1,4 +1,4 @@
-package com.revision.exercice4;
+package fr.ilyas.rev.exercice4;
 
 class Etudiant {
     public double moy;

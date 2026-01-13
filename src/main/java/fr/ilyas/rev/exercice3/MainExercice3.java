@@ -1,4 +1,4 @@
-package com.revision.exercice3;
+package fr.ilyas.rev.exercice3;
 
 import java.util.ArrayList;
 import java.util.HashSet;
